@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>me.naptie.bukkit.game</groupId>
+    <artifactId>bedwars</artifactId>
+    <version>2.0.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+            <id>dmulloy2-repo</id>
+            <url>http://repo.dmulloy2.net/nexus/repository/public/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!--Spigot API-->
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.15.1-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.comphenix.protocol</groupId>
+            <artifactId>ProtocolLib</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>craftbukkit</artifactId>
+            <version>1.15</version>
+            <scope>system</scope>
+            <systemPath>
+                ${project.basedir}/lib/craftbukkit-1.15-R0.1-SNAPSHOT.jar
+            </systemPath>
+        </dependency>
+        <dependency>
+            <groupId>me.naptie.bukkit</groupId>
+            <artifactId>inventory</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>
+                ${project.basedir}/lib/inventory-2.0.0.jar
+            </systemPath>
+        </dependency>
+        <dependency>
+            <groupId>me.naptie</groupId>
+            <artifactId>bukkitcore</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>
+                ${project.basedir}/lib/bukkitcore-2.0.0.jar
+            </systemPath>
+        </dependency>
+        <dependency>
+            <groupId>me.naptie.bukkit</groupId>
+            <artifactId>player</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>
+                ${project.basedir}/lib/player-2.0.0.jar
+            </systemPath>
+        </dependency>
+        <dependency>
+            <groupId>me.naptie.bukkit</groupId>
+            <artifactId>rank</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>
+                ${project.basedir}/lib/rank-2.0.0.jar
+            </systemPath>
+        </dependency>
+        <dependency>
+            <groupId>me.naptie</groupId>
+            <artifactId>bukkitgame</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>
+                ${project.basedir}/lib/bukkitgame-2.0.0.jar
+            </systemPath>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,660 @@
+category-lore:
+  en-US:
+    - "&eClick to view!"
+  en-GB:
+    - "&eClick to view!"
+  zh-CN:
+    - "&e点击查看！"
+categories:
+  0:
+    name:
+      en-US: "&aQuick Buy"
+      en-GB: "&aQuick Buy"
+      zh-CN: "&a快速购买"
+    material: NETHER_STAR
+    contents: [0, 7, 8, 11, 12, 14, 15, 19, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]
+  1:
+    name:
+      en-US: "&aBlocks"
+      en-GB: "&aBlocks"
+      zh-CN: "&a方块"
+    material: WHITE_TERRACOTTA
+    contents: [0, 1, 2, 3, 4, 5, 6]
+  2:
+    name:
+      en-US: "&aMelee"
+      en-GB: "&aMelee"
+      zh-CN: "&a近战武器"
+    material: GOLDEN_SWORD
+    contents: [7, 8, 9, 10]
+  3:
+    name:
+      en-US: "&aArmor"
+      en-GB: "&aArmour"
+      zh-CN: "&a盔甲"
+    material: CHAINMAIL_BOOTS
+    contents: [11, 12, 13]
+  4:
+    name:
+      en-US: "&aTools"
+      en-GB: "&aTools"
+      zh-CN: "&a工具"
+    material: STONE_PICKAXE
+    contents: [14, 15, 19]
+  5:
+    name:
+      en-US: "&aRanged"
+      en-GB: "&aRanged"
+      zh-CN: "&a远程武器"
+    material: BOW
+    contents: [23, 24, 25, 26]
+  6:
+    name:
+      en-US: "&aPotions"
+      en-GB: "&aPotions"
+      zh-CN: "&a药水"
+    material: BREWING_STAND
+    contents: [27, 28, 29]
+  7:
+    name:
+      en-US: "&aUtility"
+      en-GB: "&aUtility"
+      zh-CN: "&a实用道具"
+    material: TNT
+    contents: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+glass-pane:
+  name:
+    en-US: "&8\u2b06 &7Categories"
+    en-GB: "&8\u2b06 &7Categories"
+    zh-CN: "&8\u2b06 &7类别"
+  lore:
+    en-US:
+      - "&8\u2b07 &7Items"
+    en-GB:
+      - "&8\u2b07 &7Items"
+    zh-CN:
+      - "&8\u2b07 &7物品"
+# glass-pane: 13 (green) when selected, 7 (grey) when not.
+items:
+  0:
+    name:
+      en-US: "Wool"
+      en-GB: "Wool"
+      zh-CN: "羊毛"
+    lore:
+      en-US:
+        - "&7Great for bridging across"
+        - "&7islands. Turns into your team's"
+        - "&7color."
+      en-GB:
+        - "&7Great for bridging across"
+        - "&7islands. Turns into your team's"
+        - "&7colour."
+      zh-CN:
+        - "&7可用于搭桥穿越岛屿。"
+        - "&7会对应改变为你的队伍颜色。"
+    material: WHITE_WOOL
+    cost: [iron, 4]
+    amount: 16
+  1:
+    name:
+      en-US: "Terracotta"
+      en-GB: "Terracotta"
+      zh-CN: "陶瓦"
+    lore:
+      en-US:
+        - "&7Basic block to defend your bed."
+      en-GB:
+        - "&7Basic block to defend your bed."
+      zh-CN:
+        - "&7用于保卫床的基础方块。"
+    material: WHITE_TERRACOTTA
+    cost: [iron, 12]
+    amount: 16
+  2:
+    name:
+      en-US: "Blast-Proof Glass"
+      en-GB: "Blast-Proof Glass"
+      zh-CN: "防爆玻璃"
+    lore:
+      en-US:
+        - "&7Immune to explosions."
+      en-GB:
+        - "&7Immune to explosions."
+      zh-CN:
+        - "&7免疫爆炸。"
+    material: GLASS
+    cost: [iron, 12]
+    amount: 4
+  3:
+    name:
+      en-US: "End Stone"
+      en-GB: "End Stone"
+      zh-CN: "末地石"
+    lore:
+      en-US:
+        - "&7Solid block to defend your bed."
+      en-GB:
+        - "&7Solid block to defend your bed."
+      zh-CN:
+        - "&7用于保卫床的坚固方块。"
+    material: END_STONE
+    cost: [iron, 24]
+    amount: 4
+  4:
+    name:
+      en-US: "Ladder"
+      en-GB: "Ladder"
+      zh-CN: "梯子"
+    lore:
+      en-US:
+        - "&7Useful to save cats stuck in trees."
+      en-GB:
+        - "&7Useful to save cats stuck in trees."
+      zh-CN:
+        - "&7可用于救助在树上卡住的猫。"
+    material: LADDER
+    cost: [iron, 4]
+    amount: 16
+  5:
+    name:
+      en-US: "Oak Wood Planks"
+      en-GB: "Oak Wood Planks"
+      zh-CN: "橡木木板"
+    lore:
+      en-US:
+        - "&7Good block to defend your bed."
+        - "&7Strong against pickaxes."
+      en-GB:
+        - "&7Good block to defend your bed."
+        - "&7Strong against pickaxes."
+      zh-CN:
+        - "&7用于保卫床的优质方块。"
+        - "&7能有效抵御镐子的破坏。"
+    material: OAK_WOOD
+    cost: [gold, 4]
+    amount: 16
+  6:
+    name:
+      en-US: "Obsidian"
+      en-GB: "Obsidian"
+      zh-CN: "黑曜石"
+    lore:
+      en-US:
+        - "&7Extreme protection for your bed."
+      en-GB:
+        - "&7Extreme protection for your bed."
+      zh-CN:
+        - "&7百分百保护你的床。"
+    material: OBSIDIAN
+    cost: [emerald, 4]
+    amount: 4
+  7:
+    name:
+      en-US: "Stone Sword"
+      en-GB: "Stone Sword"
+      zh-CN: "石剑"
+    material: STONE_SWORD
+    cost: [iron, 10]
+    amount: 1
+  8:
+    name:
+      en-US: "Iron Sword"
+      en-GB: "Iron Sword"
+      zh-CN: "铁剑"
+    material: IRON_SWORD
+    cost: [gold, 7]
+    amount: 1
+  9:
+    name:
+      en-US: "Diamond Sword"
+      en-GB: "Diamond Sword"
+      zh-CN: "钻石剑"
+    material: DIAMOND_SWORD
+    cost: [emerald, 4]
+    amount: 1
+  10:
+    name:
+      en-US: "Stick (Knockback I)"
+      en-GB: "Stick (Knockback I)"
+      zh-CN: "Stick （击退 I）"
+    material: STICK
+    cost: [gold, 10]
+    amount: 1
+    enchantment: [KNOCKBACK, 1]
+  11:
+    name:
+      en-US: "Permanent Chainmail Armor"
+      en-GB: "Permanent Chainmail Armour"
+      zh-CN: "永久锁链盔甲"
+    lore:
+      en-US:
+        - "&7Chainmail leggings and boots"
+        - "&7which you will always spawn"
+        - "&7with."
+      en-GB:
+        - "&7Chainmail leggings and boots"
+        - "&7which you will always spawn"
+        - "&7with."
+      zh-CN:
+        - "&7锁链护腿和锁链靴子，"
+        - "&7哪怕重生也不丢。"
+    material: CHAINMAIL_LEGGINGS
+    cost: [iron, 40]
+    amount: 1
+  12:
+    name:
+      en-US: "Permanent Iron Armor"
+      en-GB: "Permanent Iron Armour"
+      zh-CN: "永久铁盔甲"
+    lore:
+      en-US:
+        - "&7Iron leggings and boots"
+        - "&7which you will always spawn"
+        - "&7with."
+      en-GB:
+        - "&7Iron leggings and boots"
+        - "&7which you will always spawn"
+        - "&7with."
+      zh-CN:
+        - "&7铁护腿和铁靴子，"
+        - "&7哪怕重生也不丢。"
+    material: IRON_LEGGINGS
+    cost: [gold, 12]
+    amount: 1
+  13:
+    name:
+      en-US: "Permanent Diamond Armor"
+      en-GB: "Permanent Diamond Armour"
+      zh-CN: "永久钻石盔甲"
+    lore:
+      en-US:
+        - "&7Diamond leggings and boots"
+        - "&7which you will always crush"
+        - "&7with."
+      en-GB:
+        - "&7Diamond leggings and boots"
+        - "&7which you will always crush"
+        - "&7with."
+      zh-CN:
+        - "&7钻石护腿和钻石靴子，"
+        - "&7是你作战的好搭档。"
+    material: DIAMOND_LEGGINGS
+    cost: [emerald, 6]
+    amount: 1
+  14:
+    name:
+      en-US: "Permanent Shears"
+      en-GB: "Permanent Shears"
+      zh-CN: "永久剪刀"
+    lore:
+      en-US:
+        - "&7Great to get rid of wool. You"
+        - "&7will always spawn with these"
+        - "&7shears."
+      en-GB:
+        - "&7Great to get rid of wool. You"
+        - "&7will always spawn with these"
+        - "&7shears."
+      zh-CN:
+        - "&7剪羊毛的好帮手，"
+        - "&7哪怕重生也不丢。"
+    material: SHEARS
+    cost: [iron, 20]
+    amount: 1
+  15:
+    name:
+      en-US: "Wooden Pickaxe (Efficiency I)"
+      en-GB: "Wooden Pickaxe (Efficiency I)"
+      zh-CN: "木镐 （效率 I）"
+    group: "Pickaxe"
+    tier: 1
+    upgrades: [16, 17, 18]
+    material: WOODEN_PICKAXE
+    cost: [iron, 10]
+    amount: 1
+    enchantment: [DIG_SPEED, 1]
+  16:
+    name:
+      en-US: "Stone Pickaxe (Efficiency I)"
+      en-GB: "Stone Pickaxe (Efficiency I)"
+      zh-CN: "石镐 （效率 I）"
+    group: "Pickaxe"
+    tier: 2
+    downgrades: [15]
+    upgrades: [17, 18]
+    material: STONE_PICKAXE
+    cost: [iron, 20]
+    amount: 1
+    enchantment: [DIG_SPEED, 1]
+  17:
+    name:
+      en-US: "Iron Pickaxe (Efficiency I)"
+      en-GB: "Iron Pickaxe (Efficiency I)"
+      zh-CN: "铁镐 （效率 I）"
+    group: "Pickaxe"
+    tier: 3
+    downgrades: [15, 16]
+    upgrades: [18]
+    material: IRON_PICKAXE
+    cost: [gold, 6]
+    amount: 1
+    enchantment: [DIG_SPEED, 1]
+  18:
+    name:
+      en-US: "Diamond Pickaxe (Efficiency I)"
+      en-GB: "Diamond Pickaxe (Efficiency I)"
+      zh-CN: "钻石镐 （效率 I）"
+    group: "Pickaxe"
+    tier: 4
+    downgrades: [15, 16, 17]
+    material: DIAMOND_PICKAXE
+    cost: [gold, 12]
+    amount: 1
+    enchantment: [DIG_SPEED, 1]
+  19:
+    name:
+      en-US: "Wooden Axe (Efficiency I)"
+      en-GB: "Wooden Axe (Efficiency I)"
+      zh-CN: "木斧 （效率 I）"
+    group: "Axe"
+    tier: 1
+    upgrades: [20, 21, 22]
+    material: WOODEN_AXE
+    cost: [iron, 10]
+    amount: 1
+    enchantment: [DIG_SPEED, 1]
+  20:
+    name:
+      en-US: "Stone Axe (Efficiency I)"
+      en-GB: "Stone Axe (Efficiency I)"
+      zh-CN: "石斧 （效率 I）"
+    group: "Axe"
+    tier: 2
+    downgrades: [19]
+    upgrades: [21, 22]
+    material: STONE_AXE
+    cost: [iron, 20]
+    amount: 1
+    enchantment: [DIG_SPEED, 1]
+  21:
+    name:
+      en-US: "Iron Axe (Efficiency I)"
+      en-GB: "Iron Axe (Efficiency I)"
+      zh-CN: "铁斧 （效率 I）"
+    group: "Axe"
+    tier: 3
+    downgrades: [19, 20]
+    upgrades: [22]
+    material: IRON_AXE
+    cost: [gold, 6]
+    amount: 1
+    enchantment: [DIG_SPEED, 1]
+  22:
+    name:
+      en-US: "Diamond Axe (Efficiency I)"
+      en-GB: "Diamond Axe (Efficiency I)"
+      zh-CN: "钻石斧 （效率 I）"
+    group: "Axe"
+    tier: 4
+    downgrades: [19, 20, 21]
+    material: DIAMOND_AXE
+    cost: [gold, 12]
+    amount: 1
+    enchantment: [DIG_SPEED, 1]
+  23:
+    name:
+      en-US: "Arrow"
+      en-GB: "Arrow"
+      zh-CN: "箭"
+    material: ARROW
+    cost: [gold, 2]
+    amount: 8
+  24:
+    name:
+      en-US: "Bow"
+      en-GB: "Bow"
+      zh-CN: "弓"
+    material: BOW
+    cost: [gold, 12]
+    amount: 1
+  25:
+    name:
+      en-US: "Bow (Power I)"
+      en-GB: "Bow (Power I)"
+      zh-CN: "弓 （力量 I）"
+    material: BOW
+    cost: [gold, 24]
+    amount: 1
+    enchantment: [ARROW_DAMAGE, 1]
+  26:
+    name:
+      en-US: "Bow (Power I, Knockback I)"
+      en-GB: "Bow (Power I, Knockback I)"
+      zh-CN: "弓 （力量 I， 击退 I）"
+    material: BOW
+    cost: [emerald, 6]
+    amount: 1
+    enchantment: [ARROW_DAMAGE, 1, ARROW_KNOCKBACK, 1]
+  27:
+    name:
+      en-US: "Speed II Potion (45s)"
+      en-GB: "Speed II Potion (45s)"
+      zh-CN: "迅捷 II 药水 （45秒）"
+    potion: [SPEED, 2, 45]
+    cost: [emerald, 1]
+    amount: 1
+  28:
+    name:
+      en-US: "Jump V Potion (45s)"
+      en-GB: "Jump V Potion (45s)"
+      zh-CN: "跳跃 V 药水 （45秒）"
+    potion: [JUMP, 5, 45]
+    cost: [emerald, 1]
+    amount: 1
+  29:
+    name:
+      en-US: "Invisibility Potion (30s)"
+      en-GB: "Invisibility Potion (30s)"
+      zh-CN: "隐身药水 （30秒）"
+    potion: [INVISIBILITY, 0, 30]
+    cost: [emerald, 2]
+    amount: 1
+  30:
+    name:
+      en-US: "Golden Apple"
+      en-GB: "Golden Apple"
+      zh-CN: "金苹果"
+    lore:
+      en-US:
+        - "&7Well-rounded healing."
+      en-GB:
+        - "&7Well-rounded healing."
+      zh-CN:
+        - "&7全面治愈。"
+    material: GOLDEN_APPLE
+    cost: [gold, 3]
+    amount: 1
+  31:
+    name:
+      en-US: "Bedbug"
+      en-GB: "Bedbug"
+      zh-CN: "床虱"
+    lore:
+      en-US:
+        - "&7Spawns silverfish where the"
+        - "&7snowball lands to distract your"
+        - "&7enemies. Lasts 15 seconds."
+      en-GB:
+        - "&7Spawns silverfish where the"
+        - "&7snowball lands to distract your"
+        - "&7enemies. Lasts 15 seconds."
+      zh-CN:
+        - "&7在雪球着陆的地方生成蠹虫，"
+        - "&7用于分散敌人注意力，持续15秒。"
+    material: SNOWBALL
+    cost: [iron, 40]
+    amount: 1
+  32:
+    name:
+      en-US: "Dream Defender"
+      en-GB: "Dream Defender"
+      zh-CN: "梦境守护者"
+    lore:
+      en-US:
+        - "&7Iron Golem to help defend your"
+        - "&7base. Lasts 4 minutes."
+      en-GB:
+        - "&7Iron Golem to help defend your"
+        - "&7base. Lasts 4 minutes."
+      zh-CN:
+        - "&7铁傀儡帮你守卫基地，"
+        - "&7持续4分钟。"
+    material: POLAR_BEAR_SPAWN_EGG
+    cost: [iron, 120]
+    amount: 1
+  33:
+    name:
+      en-US: "Fireball"
+      en-GB: "Fireball"
+      zh-CN: "火焰弹"
+    lore:
+      en-US:
+        - "&7Right-click to launch! Great to"
+        - "&7knock back enemies walking on"
+        - "&7thin bridges."
+      en-GB:
+        - "&7Right-click to launch! Great to"
+        - "&7knock back enemies walking on"
+        - "&7thin bridges."
+      zh-CN:
+        - "&7右键发射！"
+        - "&7击飞在桥上行走的敌人！"
+    material: FIRE_CHARGE
+    cost: [iron, 40]
+    amount: 1
+  34:
+    name:
+      en-US: "TNT"
+      en-GB: "TNT"
+      zh-CN: "TNT"
+    lore:
+      en-US:
+        - "&7Instantly ignites, appropriate"
+        - "&7to explode things!"
+      en-GB:
+        - "&7Instantly ignites, appropriate"
+        - "&7to explode things!"
+      zh-CN:
+        - "&7瞬间点燃，很适合用来摧毁防御工事！"
+    material: TNT
+    cost: [gold, 4]
+    amount: 1
+  35:
+    name:
+      en-US: "Ender Pearl"
+      en-GB: "Ender Pearl"
+      zh-CN: "末影珍珠"
+    lore:
+      en-US:
+        - "&7The quickest way to invade enemy"
+        - "&7bases."
+      en-GB:
+        - "&7The quickest way to invade enemy"
+        - "&7bases."
+      zh-CN:
+        - "&7入侵敌人基地的最快方法。"
+    material: ENDER_PEARL
+    cost: [emerald, 4]
+    amount: 1
+  36:
+    name:
+      en-US: "Water Bucket"
+      en-GB: "Water Bucket"
+      zh-CN: "水桶"
+    lore:
+      en-US:
+        - "&7Great to slow down approaching"
+        - "&7enemies. Can also protect"
+        - "&7against TNT."
+      en-GB:
+        - "&7Great to slow down approaching"
+        - "&7enemies. Can also protect"
+        - "&7against TNT."
+      zh-CN:
+        - "&7能很好地降低来犯敌人的速度。"
+        - "&7也可以抵御来自TNT的伤害。"
+    material: WATER_BUCKET
+    cost: [gold, 4]
+    amount: 1
+  37:
+    name:
+      en-US: "Bridge Egg"
+      en-GB: "Bridge Egg"
+      zh-CN: "搭桥蛋"
+    lore:
+      en-US:
+        - "&7This egg creates a bridge in its"
+        - "&7trail after being thrown."
+      en-GB:
+        - "&7This egg creates a bridge in its"
+        - "&7trail after being thrown."
+      zh-CN:
+        - "&7扔出后，这个蛋会顺着抛物线生成一座桥。"
+    material: EGG
+    cost: [emerald, 3]
+    amount: 1
+  38:
+    name:
+      en-US: "Magic Milk"
+      en-GB: "Magic Milk"
+      zh-CN: "魔法牛奶"
+    lore:
+      en-US:
+        - "&7Avoid triggering traps for 60"
+        - "&7seconds after consuming."
+      en-GB:
+        - "&7Avoid triggering traps for 60"
+        - "&7seconds after consuming."
+      zh-CN:
+        - "&7使用后，60秒内避免出发陷阱。"
+    material: MILK_BUCKET
+    cost: [gold, 4]
+    amount: 1
+  39:
+    name:
+      en-US: "Sponge"
+      en-GB: "Sponge"
+      zh-CN: "海绵"
+    lore:
+      en-US:
+        - "&7Great for soaking up water."
+      en-GB:
+        - "&7Great for soaking up water."
+      zh-CN:
+        - "&7能够很好地吸收水分。"
+    material: SPONGE
+    cost: [gold, 3]
+    amount: 4
+upgradable-lore:
+  en-US:
+    - "&7This is an upgradable item."
+    - "&7It will lose 1 tier upon"
+    - "&7death!"
+    - ""
+    - "&7You will permanently"
+    - "&7respawn with at least the"
+    - "&7lowest tier."
+  en-GB:
+    - "&7This is an upgradable item."
+    - "&7It will lose 1 tier upon"
+    - "&7death!"
+    - ""
+    - "&7You will permanently"
+    - "&7respawn with at least the"
+    - "&7lowest tier."
+  zh-CN:
+    - "&7该道具可升级。"
+    - "&7玩家死亡就会下降1阶！"
+    - ""
+    - "&7每次重生时，至少为最低阶。"

@@ -1,0 +1,24 @@
+name: NeonBedwars
+main: me.naptie.bukkit.game.bedwars.Main
+version: 2.0.0
+author: Naptie
+api-version: "1.15"
+depend:
+  - NeonBukkitCore
+  - NeonBukkitGame
+  - NeonInventory
+  - NeonPlayer
+  - ProtocolLib
+commands:
+  bedwars:
+    description: Shows a list of Bedwars commands.
+    usage: /<command> <leave | forcestart | upgrade [generator-type] | setwinner | reload>
+    aliases: [bw, bwgame]
+  shout:
+    description: Allows players to send global messages in team mode.
+    usage: /<command> <message>
+    aliases: [sayloudly, speakloudly, sayglobally, speakglobally]
+  bed:
+    description: Allows players to change their bed materials.
+    usage: /<command> [material] [data]
+    aliases: [bedmaterial, setbed, mybed, mybedmaterial, setmybedmaterial]

@@ -1,0 +1,275 @@
+#The configuration file for Bedwars plugin of NeonMC.
+
+#Language settings
+languages:
+  - en-GB
+  - en-US
+  - zh-CN
+update-language-files: true
+
+#The following command will be used when restarting.
+restart-command: "stop"
+
+mysql:
+  enable: true
+  debug: false
+  username: username
+  password: password
+  address: localhost:3306
+  database: neonmc
+  timezone: CST
+  useSSL: false
+
+#Now our plugin supports multi-language. This means you have to configure death messages for each language.
+
+en-GB:
+  time-format: "dd/MM/yyyy"
+  #Death messages display when a player dies. They have multiple kinds.
+  death-messages:
+    killer-known:
+      pvp:
+        - player was killed by killer.
+        - player was Alt+F4'd by killer.
+        - player has got rekt by killer.
+        - player was slain by killer.
+        - player was taken the L by killer.
+        - player got a terrible surprise by killer.
+        - player was too afraid of killer to keep alive.
+        - player was so afraid of killer that he chose death.
+        - player got a death invitation from killer.
+        - killer killed player.
+        - killer decided to kill player, and he did.
+        - killer took the L to player.
+      shot:
+        - player was shot by killer.
+        - player received an arrow from killer.
+        - killer shot player.
+      void:
+        - player was knocked into the void by killer.
+        - killer took player into the void.
+      fire:
+        - player was kicked into the fire by killer.
+        - killer kicked player into the fire.
+      fire-tick:
+        - player was burnt to death by killer.
+        - player was cooked by killer.
+        - killer burned player to death.
+        - killer cooked player.
+      lava:
+        - player was knocked into the lava by killer.
+        - killer knocked player into the lava.
+      block-explosion:
+        - player was bomberman'd by killer.
+        - killer bomberman'd player.
+      fall:
+        - player was knocked down from a high place by killer.
+        - killer knocked player down from a high place.
+      drowning:
+        - player was drowned by killer.
+        - player ran out of the air by killer.
+        - player was out of the air by killer.
+        - player's breath was stopped by killer.
+        - killer drowned player.
+        - killer stopped player's breath.
+    killer-unknown:
+      pvp:
+        - player was killed.
+        - player was Alt+F4'd.
+        - player has got rekt.
+        - player has been slain.
+        - player was taken the L.
+      void:
+        - player fell into the void.
+        - player didn't watch his feet.
+        - player was too blind to move.
+        - player was so blind that he couldn't watch his feet.
+      fire:
+        - player was kicked into the fire.
+      fire-tick:
+        - player burnt to death.
+        - player was cooked.
+      lava:
+        - player ran into the lava.
+      block-explosion:
+        - player was bomberman'd.
+      fall:
+        - player fell down from a high place.
+        - player fell from a high place.
+      drowning:
+        - player was drowned.
+        - player ran out of the air.
+        - player's breath was stopped.
+
+en-US:
+  time-format: "MM/dd/yyyy"
+  #Death messages display when a player dies. They have multiple kinds.
+  death-messages:
+    killer-known:
+      pvp:
+        - player was killed by killer.
+        - player was Alt+F4'd by killer.
+        - player has got rekt by killer.
+        - player was slain by killer.
+        - player was taken the L by killer.
+        - player got a terrible surprise by killer.
+        - player was too afraid of killer to keep alive.
+        - player was so afraid of killer that he chose death.
+        - player got a death invitation from killer.
+        - killer killed player.
+        - killer decided to kill player, and he did.
+        - killer took the L to player.
+      shot:
+        - player was shot by killer.
+        - player received an arrow from killer.
+        - killer shot player.
+      void:
+        - player was knocked into the void by killer.
+        - killer took player into the void.
+      fire:
+        - player was kicked into the fire by killer.
+        - killer kicked player into the fire.
+      fire-tick:
+        - player was burnt to death by killer.
+        - player was cooked by killer.
+        - killer burned player to death.
+        - killer cooked player.
+      lava:
+        - player was knocked into the lava by killer.
+        - killer knocked player into the lava.
+      block-explosion:
+        - player was bomberman'd by killer.
+        - killer bomberman'd player.
+      fall:
+        - player was knocked down from a high place by killer.
+        - killer knocked player down from a high place.
+      drowning:
+        - player was drowned by killer.
+        - player ran out of the air by killer.
+        - player was out of the air by killer.
+        - player's breath was stopped by killer.
+        - killer drowned player.
+        - killer stopped player's breath.
+    killer-unknown:
+      pvp:
+        - player was killed.
+        - player was Alt+F4'd.
+        - player has got rekt.
+        - player has been slain.
+        - player was taken the L.
+      void:
+        - player fell into the void.
+        - player didn't watch his feet.
+        - player was too blind to move.
+        - player was so blind that he couldn't watch his feet.
+      fire:
+        - player was kicked into the fire.
+      fire-tick:
+        - player burnt to death.
+        - player was cooked.
+      lava:
+        - player ran into the lava.
+      block-explosion:
+        - player was bomberman'd.
+      fall:
+        - player fell down from a high place.
+        - player fell from a high place.
+      drowning:
+        - player was drowned.
+        - player ran out of the air.
+        - player's breath was stopped.
+
+zh-CN:
+  time-format: "yyyy/MM/dd"
+  #Death messages display when a player dies. They have multiple kinds.
+  death-messages:
+    killer-known:
+      pvp:
+        - player 被 killer 杀死了。
+        - player 手速敌不过 killer。
+        - player 被 killer 无情地杀死了。
+        - player 被 killer 残忍地杀死了。
+        - player 收到了来自 killer 的 “L”。
+        - player 收到了来自 killer 的惊喜。
+        - player 太害怕 killer 而无法继续存活。
+        - player 过于害怕 killer 以至于他选择死亡。
+        - player 收到了来自 killer 的死亡邀请。
+        - killer 杀死了 player。
+        - killer 决定去杀 player， 并实现了他的梦想。
+        - killer 给 player 发送了 “L”。
+      shot:
+        - player 被 killer 射杀。
+        - player 收到了来自 killer 的一支箭。
+        - killer 射杀了 player。
+      void:
+        - player 被 killer 击入了虚空。
+        - killer 把 player 击入了虚空。
+      fire:
+        - player 被 killer 扔进了火里。
+        - killer 把 player 扔进了火里。
+      fire-tick:
+        - player 被 killer 烧死了。
+        - player 被 killer 煮了。
+        - killer 把 player 烧死了。
+        - killer 煮了 player。
+      lava:
+        - player 被 killer 击入了熔岩。
+        - killer 把 player 击入了熔岩。
+      block-explosion:
+        - player 被 killer 炸死了。
+        - killer 炸死了 player。
+      fall:
+        - player 被 killer 从高处击落了下来。
+        - killer 把 player 从高处击落了下来。
+      drowning:
+        - player 被 killer 淹死了。
+        - player 被 killer 抽走了空气。
+        - player 被 killer 偷走了空气。
+        - player 被 killer 屏住了呼吸。
+        - killer 淹死了 player。
+        - killer 把 player 屏住了呼吸。
+    killer-unknown:
+      pvp:
+        - player 被杀死了。
+        - player 被击败了。
+        - player 被无情地杀死了。
+        - player 被残忍地杀死了。
+        - player 收到了一个 “L”。
+      void:
+        - player 坠入了虚空。
+        - player 没有注意脚下。
+        - player 没长眼睛。
+        - player 由于眼瞎而失足。
+      fire:
+        - player 被扔进了火里。
+      fire-tick:
+        - player 被烧死了。
+        - player 被煮了。
+      lava:
+        - player 掉入了熔岩。
+      block-explosion:
+        - player 被炸死了。
+      fall:
+        - player 从高处摔了下来。
+        - player 从高处摔死了。
+      drowning:
+        - player 被水淹没， 不知所措。
+        - player 无法获取新鲜空气。
+        - player 被屏住了呼吸。
+
+# time format:  yyyy：年
+#               MM：月
+#               dd：日
+#               hh：1~12小时制(1-12)
+#               HH：24小时制(0-23)
+#               mm：分
+#               ss：秒
+#               S：毫秒
+#               E：星期几
+#               D：一年中的第几天
+#               F：一月中的第几个星期(会把这个月总共过的天数除以7)
+#               w：一年中的第几个星期
+#               W：一月中的第几星期(会根据实际情况来算)
+#               a：上下午标识
+#               k：和HH差不多，表示一天24小时制(1-24)。
+#               K：和hh差不多，表示一天12小时制(0-11)。
+#               z：表示时区

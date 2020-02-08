@@ -1,0 +1,22 @@
+image: maven:3.6.0-jdk-8-alpine
+
+variables:
+  OPTION: "clean"
+
+cache:
+  paths:
+    - .m2/repository/
+    - target/
+
+build:
+  stage: build
+  script:
+    - mvn clean package
+  artifacts:
+    paths:
+      - target/*.jar
+
+test:
+  stage: test
+  script:
+    - mvn clean test

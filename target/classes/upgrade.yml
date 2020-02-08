@@ -1,0 +1,201 @@
+purchasable:
+  0:
+    name:
+      en-US: "Sharpened Swords"
+      en-GB: "Sharpened Swords"
+      zh-CN: "锋利附魔"
+    lore:
+      en-US:
+      - "&7Your team permanently gains"
+      - "&7Sharpness I on all swords and"
+      - "&7axes!"
+      en-GB:
+      - "&7Your team permanently gains"
+      - "&7Sharpness I on all swords and"
+      - "&7axes!"
+      zh-CN:
+      - "己方所有成员的剑和斧将永久获得锋利I附魔！"
+    material: IRON_SWORD
+    amount: 1
+    cost:
+    - diamond%@4
+    feature:
+    - enchant(DAMAGE_ALL, 1, %@SWORD%@AXE)
+  1:
+    name:
+      en-US: "Reinforced Armor %level%"
+      en-GB: "Reinforced Armour %level%"
+      zh-CN: "装备强化%level%"
+    lore:
+      en-US:
+      - "&7Your team permanently gains"
+      - "&7Protection on all armor pieces!"
+      en-GB:
+      - "&7Your team permanently gains"
+      - "&7Protection on all armour pieces!"
+      zh-CN:
+      - "&7己方所有成员的盔甲将获得永久保护附魔！"
+    material: IRON_CHESTPLATE
+    amount: 1
+    cost:
+    - diamond%@2
+    - diamond%@4
+    - diamond%@8
+    - diamond%@16
+    feature:
+    - enchant(PROTECTION_ENVIRONMENTAL, 1, %@HELMET%@CHESTPLATE%@LEGGINGS%@BOOTS)
+    - enchant(PROTECTION_ENVIRONMENTAL, 2, %@HELMET%@CHESTPLATE%@LEGGINGS%@BOOTS)
+    - enchant(PROTECTION_ENVIRONMENTAL, 3, %@HELMET%@CHESTPLATE%@LEGGINGS%@BOOTS)
+    - enchant(PROTECTION_ENVIRONMENTAL, 4, %@HELMET%@CHESTPLATE%@LEGGINGS%@BOOTS)
+  2:
+    name:
+      en-US: "Maniac Miner %level%"
+      en-GB: "Maniac Miner %level%"
+      zh-CN: "疯狂矿工%level%"
+    lore:
+      en-US:
+      - "&7All players on your team"
+      - "&7permanently gain Haste."
+      en-GB:
+      - "&7All players on your team"
+      - "&7permanently gain Haste."
+      zh-CN:
+      - "&7己方所有成员获得永久急迫效果。"
+    material: GOLDEN_PICKAXE
+    amount: 1
+    cost:
+    - diamond%@2
+    - diamond%@4
+    feature:
+    - effect(FAST_DIGGING, 1)
+    - effect(FAST_DIGGING, 2)
+  3:
+    name:
+      en-US: "%customName_en-US%"
+      en-GB: "%customName_en-GB%"
+      zh-CN: "%customName_zh-CN%"
+    lore:
+      en-US:
+      - "%customLore_en-US%"
+      en-GB:
+      - "%customLore_en-GB%"
+      zh-CN:
+      - "%customLore_zh-CN%"
+    customName_en-US:
+      - "Iron Forge"
+      - "Golden Forge"
+      - "Emerald Forge"
+      - "Molten Forge"
+    customName_en-GB:
+      - "Iron Forge"
+      - "Golden Forge"
+      - "Emerald Forge"
+      - "Molten Forge"
+    customName_zh-CN:
+      - "铁锻炉"
+      - "黄金锻炉"
+      - "绿宝石锻炉"
+      - "熔融强化"
+    customLore_en-US:
+    - "(&7Increases the spawn rate of Iron%@&7and Gold by 50%.)"
+    - "(&7Increases the spawn rate of Iron%@&7and Gold by 100%.)"
+    - "(&7Activates the Emerald spawner in%@&7your team's Forge.)"
+    - "(&7Increases the spawn rate of%@&7Emerald, Iron and Gold by 200%.)"
+    customLore_en-GB:
+    - "(&7Increases the spawn rate of Iron%@&7and Gold by 50%.)"
+    - "(&7Increases the spawn rate of Iron%@&7and Gold by 100%.)"
+    - "(&7Activates the Emerald spawner in%@&7your team's Forge.)"
+    - "(&7Increases the spawn rate of%@&7Emerald, Iron and Gold by 200%.)"
+    customLore_zh-CN:
+    - "&7将铁锭和金锭的生成速度提高50%。"
+    - "&7将铁锭和金锭的生成速度提高100%。"
+    - "&7在您的队伍资源生成点中生成绿宝石。"
+    - "&7将绿宝石、铁锭和金锭的生成速度提高200%。"
+    material: IRON_CHESTPLATE
+    amount: 1
+    cost:
+    - diamond%@2
+    - diamond%@4
+    - diamond%@6
+    - diamond%@8
+    feature:
+    - setBasicSpeed(1.5)
+    - setBasicSpeed(2)
+    - addBasicItem(EMERALD, 6)
+    - setBasicSpeed(3)
+  4:
+    name:
+      en-US: "Heal Pool"
+      en-GB: "Heal Pool"
+      zh-CN: "治愈池"
+    lore:
+      en-US:
+      - "&7Creates a Regeneration field"
+      - "&7around your base!"
+      en-GB:
+      - "&7Creates a Regeneration field"
+      - "&7around your base!"
+      zh-CN:
+      - "&7基地附近的队伍成员获得生命恢复效果。"
+    material: BEACON
+    amount: 1
+    cost:
+    - diamond%@1
+    feature:
+    - effect(REGENERATION, 1, 8)
+  5:
+    name:
+      en-US: "Traps"
+      en-GB: "Traps"
+      zh-CN: "陷阱"
+    lore:
+      en-US:
+      - "&7A trap is always your best friend."
+      en-GB:
+      - "&7A trap is always your best friend."
+      zh-CN:
+      - "&7一个陷阱总是您最好的朋友。"
+    material: LEATHER_CHESTPLATE
+    amount: 1
+    browse: traps
+traps:
+  0:
+    name:
+      en-US: "The Danger Listener"
+      en-GB: "The Danger Listener"
+      zh-CN: "危险监听器"
+    lore:
+      en-US:
+      - "Sends alerts when an enemy"
+      - "enters your base."
+      en-GB:
+      - "Sends alerts when an enemy"
+      - "enters your base."
+      zh-CN:
+      - "当有敌人进入您的基地时会发出警报。"
+    material: TRIPWIRE_HOOK
+    amount: 1
+    cost:
+    - diamond%@1
+    feature:
+    - trap(ALERT)
+  1:
+    name:
+      en-US: "It's A Trap!"
+      en-GB: "It's A Trap!"
+      zh-CN: "这是个陷阱！"
+    lore:
+      en-US:
+      - "Inflicts Blindness and Slowness"
+      - "for 5 seconds."
+      en-GB:
+      - "Inflicts Blindness and Slowness"
+      - "for 5 seconds."
+      zh-CN:
+      - "造成失明与缓慢效果，持续5秒。"
+    material: TRIPWIRE_HOOK
+    amount: 1
+    cost:
+    - diamond%@1
+    feature:
+    - trap(EFFECT, %@BLINDNESS%@SLOW, 5, 0)
